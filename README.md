@@ -29,3 +29,9 @@ Learn C++ and Learn it well!
 
     // Output Statement
     std::cout << y; 
+
+    + When a declaration and assignment happens at the 'same' time, this is called 'initialization'. 
+      - double y = 20.5; 
+
+    + variables can also be 'declared' together like:
+      - double x,y,z; which declares x,y,z as double or decimal numbers
