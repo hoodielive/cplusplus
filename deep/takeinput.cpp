@@ -6,6 +6,6 @@ int main() {
   std::cout << "Enter 2 numbers:\n";
   std::cin >> a >> b;
   c = a + b;
-  std::cout << "Sum is " << c; 
-  return 0; 
+  std::cout << "Sum is " << c;
+  return 0;
 }
