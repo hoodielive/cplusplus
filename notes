@@ -1,0 +1,34 @@
+C++ 
+- System Softwares/tools 
+- Embedded Systems 
+- OS/Interpreters
+- Forms and Engines 
+- Games and Graphics 
+- Browsers, IDEs, Desktop Apps 
+
+Unmanaged: C++, C, Rust, Golang -> interact directly with the H/W (pointers)
+OS
+H/W 
+
+Managed Languages like: Python, .Net, Javascript :: They have their own runtime environment
+App
+Env
+OS
+H/W
+
+Content:
+  - Intro
+  - C++ Basics 
+    - data types
+    - variables 
+    - operators 
+  - Conditional Struct 
+  - Loops 
+  - Functions 
+  - OO
+  - Operator Overloading 
+  - Templates 
+  - I/O Streams 
+  - STL 
+  - Features of C++ 11 
+
