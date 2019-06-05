@@ -9,4 +9,6 @@ int main()
     cin >> a >> b;
     c = a + b;
     cout << "Sum is " << c << endl;
+
+    return 0; 
 }
