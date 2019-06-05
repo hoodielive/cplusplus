@@ -6,7 +6,7 @@ int main()
 {
     string str;
     cout << "May I know your name please? "; 
-    cin >> str; 
+    getline(cin, str); 
     cout << "Hello " << str; 
     return 0;
 }
