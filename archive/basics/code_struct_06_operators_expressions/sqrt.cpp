@@ -11,7 +11,7 @@ int main()
 
   cout <<  "Enter 3 values: " << endl;
   cin >> a >> b >> c; 
-  root1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+  root1 = float((-b + sqrt(b * b - 4 * a * c)) / (2 * a));
   root2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
   cout << "Root1 is " << root1 << endl; 
   cout << "Root2 is " << root2 << endl; 
