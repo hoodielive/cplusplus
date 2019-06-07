@@ -1,13 +1,13 @@
 #include <iostream> 
 
-using namespace std; 
+// using namespace std; 
 
 int main()
 {
   float area, r; 
-  cout << "Enter Radius " << endl; 
-  cin >> r; 
-  area = 3.1425f * r * r; 
-  cout << "Your area radius is " << area << endl; 
+  std::cout << "Enter Radius " << std::endl; 
+  std::cin >> r; 
+  area = float(22/3.1425f) * r * r; 
+  std::cout << "Your area radius is " << area << std::endl; 
   return 0;
 }
