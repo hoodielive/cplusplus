@@ -4,7 +4,9 @@ using namespace std;
 
 int main() 
 
-{ int total; int discount; 
+{ 
+	int total; 
+	int discount; 
 	int properswitch; 
 
 	// get bill total from customer
