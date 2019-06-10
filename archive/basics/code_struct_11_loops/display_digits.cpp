@@ -2,7 +2,7 @@
 
 int main()
 {
-	int n, r, sum=0; 
+	int n, r, rev=0; 
 	std::cout << "Enter a number: "; 
 	std::cin >> n; 
 
@@ -10,9 +10,9 @@ int main()
 	{
 		r = n % 10; 
 		n /= 10; 
-		sum = sum * 10 + r;
+		rev = rev * 10 + r;
 	}
 
-	std::cout << sum << std::endl; 
+	std::cout << rev << std::endl; 
 	return 0; 
 }
