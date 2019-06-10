@@ -1,0 +1,11 @@
+#include <iostream> 
+
+using namespace std; 
+
+int main() 
+
+{
+ 	int A[5]; 
+	// A = {2, 5, 8, 10, 16}; 
+	cout << A[0] << endl; 
+}
