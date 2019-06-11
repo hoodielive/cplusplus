@@ -22,4 +22,10 @@ int main()
 	b = (string)c + c;
 	b = "Hello" + (string)" World"; 
 	cout << b << endl; 
+
+	string s = "Hello"; 
+	bool bo = ( s == "Hello"); // true
+	cout << bo << endl; 
+
+	return 0;
 }
