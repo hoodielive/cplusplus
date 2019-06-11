@@ -18,7 +18,7 @@ int main()
 	string b = "Hello " + w; 
 	cout << b << endl; 
 
-	char *c = "World";
+	char c* = "World";
 	b = (string)c + c;
 	b = "Hello" + (string)" World"; 
 	cout << b << endl; 
