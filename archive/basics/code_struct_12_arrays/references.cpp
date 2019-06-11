@@ -14,6 +14,12 @@ int main()
 	cout << x << endl; 
 
 	int* ptr = &x; // ptr assigned address to x
-	cout << ptr << endl; 
+	cout << ptr[0] << endl; 
+	
+	int* ptr_null_ptr = 0; // null pointer 
+	int& ref = *ptr_null_ptr; 
+	ref = 10; // segmentation fault (invalid memory access)
+
+	cout << ref << endl; 
 	return 0; 
 }
