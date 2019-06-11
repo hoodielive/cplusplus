@@ -10,5 +10,13 @@ int main()
 	
 	int length = sizeof(p) / sizeof(int); 
 	cout << length <<endl; 
+
+	int size = 3; 
+	int* q = new int[size]; // dynamically allocated array 
+
+	cout << q[1] << endl; 
+	delete[] p; // release allocated array
+	cout << p[1] << endl;
+
 	return 0; 
 }
