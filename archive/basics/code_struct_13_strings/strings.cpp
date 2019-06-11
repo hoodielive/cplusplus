@@ -15,6 +15,6 @@ int main()
 	h += " " + w; 
 	cout << h << endl; 
 
-	string b = "Hello" + w; 
+	string b = "Hello " + w; 
 	cout << b << endl; 
 }
