@@ -3,7 +3,6 @@
 using namespace std; 
 
 int main()
-
 {
 	int x = 5; 
 	int& r = x; // r is an alias to x 
@@ -14,5 +13,7 @@ int main()
 	cout << r << endl; 
 	cout << x << endl; 
 
+	int* ptr = &x; // ptr assigned address to x
+	cout << ptr << endl; 
 	return 0; 
 }
