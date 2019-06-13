@@ -16,7 +16,5 @@ int main()
 	int multidimensional_array[2][2] = { { 0, 1 }, { 2, 3 } }; 
 	multidimensional_array[2][2] = 5; 	
 	std::cout << multidimensional_array[2][2] << std::endl; 
-//	std::cout << anotherArray << std::endl; 
-//	std::cout << myArray << std::endl; 
 	return 0; 
 }
