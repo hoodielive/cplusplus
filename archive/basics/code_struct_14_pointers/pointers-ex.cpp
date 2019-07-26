@@ -20,5 +20,12 @@ int main()
 
   std::cout << "Address of p: " << r << std::endl;
   std::cout << "Address of i: " << *r << std::endl;
+  std::cout << "Value of i: " << **r << std::endl;
+
+  // One of the main usages of pointers to allocate memory during run-time (so-called dynamic allocation) 
+  int* d = new int; // dynamic allocation 
+
+  std::cout << "dynamic allocation: " << d << std::endl; 
+  delete d; // release allocated memory
   return 0;
 }
