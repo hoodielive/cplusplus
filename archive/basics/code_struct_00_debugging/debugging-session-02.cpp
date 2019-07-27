@@ -2,15 +2,18 @@
 
 int main()
 {
-    int FTemp; 
-    int CTemp; 
+    float FTemp; 
+    float CTemp; 
 
     cout << "Enter a farenheit temp: "; 
-    getline(cin, FTemp); 
-    stingstream(FTemp) >> FTemp; 
-    CTemp = FTemp - 32 / (9/5); 
+    cin  >> FTemp; 
+
+    CTemp = (FTemp - 32) / (9.0 / 5.0); 
+    
     cout << "\n" << FTemp << " in Farenheit = " <<
+
     CTemp << "in Celsius" << endl; 
 
-    return 0
+    return 0; 
+    
 }
