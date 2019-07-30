@@ -10,8 +10,8 @@ int main()
 
     auto second = make_tuple(maxN, maxL)
 
-    cout << get<0>(first) << " " << get<1>(first) << "\n"; 
-    cout << get<0>(second) << " " << get<1>(second) << "\n"; 
+    cout << get<0>(first)<< " " << get<1>(first) << "\n"; 
+    cout << get<0>(second)<< " " << get<1>(second) << "\n"; 
 
     return 0;
 
