@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.cpp
+ModernPerson.h
+/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h
+iostream
+-
+
 /home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h
 string
 -
-
-/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/main.cpp
-iostream
--
-ModernPerson.h
-/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h
 

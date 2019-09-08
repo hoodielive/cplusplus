@@ -1,15 +1,18 @@
 #include "ModernPerson.h"
+#include <iostream>
 
 ModernPerson::ModernPerson(std::string first, std::string last, int arbitrary) :
     firstname(first), lastname(last), arbitrarynumber(arbitrary)
 {
-    std::cout << "constructing " << firstname << " " << lastname << std::endl;
+    std::cout << "constructing " << getName() << std::endl;
 }
 
-ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
-{
-    std::cout << "constructing " << firstname << " " << lastname << std::endl;
-}
+/** [da fuk are you erroring over lol?] FIXME
+* ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
+* {
+*    std::cout << "constructing " << firstname << " " << lastname << std::endl;
+* }
+*/
 
 ModernPerson::~ModernPerson()
 {

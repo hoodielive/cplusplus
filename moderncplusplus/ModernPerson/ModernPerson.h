@@ -7,9 +7,9 @@
 class ModernPerson
 {
     private:
-        std::string firstname{};
-        std::string lastname{};
-        int arbitrarynumber{};
+        std::string firstname;
+        std::string lastname;
+        int arbitrarynumber;
 
     public:
         ModernPerson(std::string first, std::string last, int arbitrarynumber);
