@@ -3,5 +3,4 @@
 std::string Person::getName()
 {
     return firstname + " " + lastname; 
-
 }
