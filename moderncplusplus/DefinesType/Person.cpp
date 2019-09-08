@@ -1,19 +1,7 @@
-#include <iostream>
+#include "Person.h"
 
-int main() 
+std::string Person::getName()
 {
+    return firstname + " " + lastname; 
 
-    return 0; 
 }
-
-class Person
-{
-    private: 
-        std::string firstname; 
-        std::string lastname; 
-        int arbitrarynumber;  
-
-    public:
-        std::string getName();
-
-};
