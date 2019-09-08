@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h
+string
+-
+
+/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/main.cpp
+iostream
+-
+ModernPerson.h
+/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h
+

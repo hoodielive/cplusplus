@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ModernPerson.dir/main.cpp.o CMakeFiles/ModernPerson.dir/ModernPerson.cpp.o  -o ModernPerson 
