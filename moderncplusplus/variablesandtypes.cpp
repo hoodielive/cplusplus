@@ -54,5 +54,19 @@ int main()
     std::cout << "Values a7= " << a7 << std::endl; 
     std::cout << "Values a8= " << a8 << std::endl; 
     std::cout << "Values a9= " << a9 << std::endl; 
+
+ // when you add values that don't match the specified types, you get unexpected returns:
+    unsigned char n1 = 128;  
+    char n2 = 128;
+
+    std::cout << "Unsigned char n1 is: " << n1 << std::endl; 
+    std::cout << "char n2 is of value: " << n2 << std::endl; 
+
+    n1 = 254; 
+    n2 = 254; 
+
+    std::cout << "Unsigned char n1 is: " << n1 << std::endl; 
+    std::cout << "char n2 is of value: " << n2 << std::endl; 
+
     return 0; 
 }
