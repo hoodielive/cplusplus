@@ -1,14 +1,12 @@
 #include <iostream>
 #include <string>
 
-int main() 
-{
-
-    return 0; 
-}
 
 class Person
 {
+    // constructor must always have name of Class!
+    Person(std::string first, std::string last, int arbitrary);
+
     private: 
         std::string firstname; 
         std::string lastname; 
