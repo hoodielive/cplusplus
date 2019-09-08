@@ -90,6 +90,12 @@
 		<Unit filename="/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.h">
 			<Option target="ModernPerson"/>
 		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/Tweeter.cpp">
+			<Option target="ModernPerson"/>
+		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/Tweeter.h">
+			<Option target="ModernPerson"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/main.cpp">
 			<Option target="ModernPerson"/>
 		</Unit>

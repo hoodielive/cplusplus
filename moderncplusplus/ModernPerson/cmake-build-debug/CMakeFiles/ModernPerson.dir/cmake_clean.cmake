@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ModernPerson.dir/main.cpp.o"
   "CMakeFiles/ModernPerson.dir/ModernPerson.cpp.o"
+  "CMakeFiles/ModernPerson.dir/Tweeter.cpp.o"
   "ModernPerson.pdb"
   "ModernPerson"
 )

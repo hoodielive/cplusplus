@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/ModernPerson.cpp" "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/cmake-build-debug/CMakeFiles/ModernPerson.dir/ModernPerson.cpp.o"
+  "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/Tweeter.cpp" "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/cmake-build-debug/CMakeFiles/ModernPerson.dir/Tweeter.cpp.o"
   "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/main.cpp" "/home/wujud/Clones/cplusplus/moderncplusplus/ModernPerson/cmake-build-debug/CMakeFiles/ModernPerson.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
