@@ -7,12 +7,12 @@ ModernPerson::ModernPerson(std::string first, std::string last, int arbitrary) :
     std::cout << "constructing " << getName() << std::endl;
 }
 
-/** [da fuk are you erroring over lol?] FIXME
-* ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
-* {
-*    std::cout << "constructing " << firstname << " " << lastname << std::endl;
-* }
-*/
+// FIXME [da fuk are you erroring over lol?]
+ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
+{
+   std::cout << "constructing " << firstname << " " << lastname << std::endl;
+}
+
 
 ModernPerson::~ModernPerson()
 {
