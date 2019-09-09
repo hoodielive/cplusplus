@@ -2,8 +2,6 @@
 #ifndef MODERNPERSON_MODERNPERSON_H
 #define MODERNPERSON_MODERNPERSON_H
 
-#endif //MODERNPERSON_MODERNPERSON_H
-
 class ModernPerson
 {
     private:
@@ -17,3 +15,5 @@ class ModernPerson
         ~ModernPerson();
         std::string getName();
 };
+
+#endif //MODERNPERSON_MODERNPERSON_H
