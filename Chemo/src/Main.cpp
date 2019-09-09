@@ -1,10 +1,11 @@
-#include <iostream> 
+#include <iostream>
+#include "Log.cpp"
 
 
-int main() 
+int main()
 {
-	
-	std::cout << "Hello, Lawrdy!" << std::endl; 
-	
+	Log("This is my message");
+	std::cout << "Hello, Lawrdy!" << std::endl;
+	std::cin.get();
 	return 0;
 }

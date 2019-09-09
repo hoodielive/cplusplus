@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/phoenix/Clones/cplusplus/Chemo",
+  "command": "/usr/bin/c++     -Wall -Werror -std=c++14 -g   -o CMakeFiles/Chemo.dir/src/Main.cpp.o -c /home/phoenix/Clones/cplusplus/Chemo/src/Main.cpp",
+  "file": "/home/phoenix/Clones/cplusplus/Chemo/src/Main.cpp"
+}
+]
