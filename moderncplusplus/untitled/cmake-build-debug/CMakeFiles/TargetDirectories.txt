@@ -1,3 +1,0 @@
-/home/wujud/Clones/cplusplus/moderncplusplus/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wujud/Clones/cplusplus/moderncplusplus/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/wujud/Clones/cplusplus/moderncplusplus/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir

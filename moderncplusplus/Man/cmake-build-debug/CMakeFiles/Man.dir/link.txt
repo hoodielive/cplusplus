@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Man.dir/main.cpp.o CMakeFiles/Man.dir/Man.cpp.o  -o Man 
