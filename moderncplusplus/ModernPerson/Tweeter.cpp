@@ -1,3 +1,4 @@
+#pragma "once"
 #include "ModernPerson.h"
 #include "Tweeter.h"
 #include <iostream>

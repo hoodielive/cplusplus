@@ -1,6 +1,5 @@
 #include <string>
-#ifndef MODERNPERSON_MODERNPERSON_H
-#define MODERNPERSON_MODERNPERSON_H
+#pragma "once"
 
 class ModernPerson
 {
@@ -11,9 +10,8 @@ class ModernPerson
 
     public:
         ModernPerson(std::string first, std::string last, int arbitrarynumber);
-        ModernPerson()=default;
+        ModernPerson() = default;
         ~ModernPerson();
         std::string getName();
 };
 
-#endif //MODERNPERSON_MODERNPERSON_H

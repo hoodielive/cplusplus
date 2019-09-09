@@ -1,8 +1,4 @@
-#pragma once
-#ifndef MODERNPERSON_TWEETER_H
-#define MODERNPERSON_TWEETER_H
-
-#endif //MODERNPERSON_TWEETER_H
+#pragma "once"
 #include <string>
 
 class Tweeter :

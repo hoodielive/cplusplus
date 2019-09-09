@@ -7,7 +7,10 @@ int main()
     ModernPerson p1("Omo", "Ogun", 8);
     {
         ModernPerson p2;
-        Tweeter t1("Someone", "Else", 456, "@whoever");
+    }
+
+    Tweeter t1("Someone", "Else", 456, "@whoever");
+    {
         std::string name2 = t1.getName();
     }
 

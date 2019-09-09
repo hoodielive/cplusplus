@@ -1,3 +1,4 @@
+#pragma "once"
 #include "ModernPerson.h"
 #include <iostream>
 
@@ -8,10 +9,10 @@ ModernPerson::ModernPerson(std::string first, std::string last, int arbitrary) :
 }
 
 // FIXME [da fuk are you erroring over lol?]
-ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
-{
-   std::cout << "constructing " << firstname << " " << lastname << std::endl;
-}
+//ModernPerson::ModernPerson() noexcept : arbitrarynumber(0)
+//{
+   //std::cout << "constructing " << firstname << " " << lastname << std::endl;
+//}
 
 
 ModernPerson::~ModernPerson()
