@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Log.cpp"
 
 int Multiply(int a, int b)
 {
@@ -14,6 +14,15 @@ void MultiplyandLog(int a, int b)
 
 int main()
 {
+
+	int x = 5;
+
+	bool comparisonResult = x == 5;
+
+	if (comparisonResult)
+	{
+		Log("Hello, World");
+	}
 
 	MultiplyandLog(3, 2);
 	MultiplyandLog(30, 21);
