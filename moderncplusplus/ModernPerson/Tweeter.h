@@ -3,7 +3,6 @@
 #define MODERNPERSON_TWEETER_H
 
 #endif //MODERNPERSON_TWEETER_H
-#include "ModernPerson.h"
 #include <string>
 
 class Tweeter :
