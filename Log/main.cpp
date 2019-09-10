@@ -15,6 +15,7 @@ public:
     {
         m_LogLevel = level;
     }
+
     void Error(const char* message)
     {
         if (m_LogLevel >= LogLevelError)
