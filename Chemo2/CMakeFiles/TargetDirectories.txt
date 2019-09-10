@@ -1,0 +1,3 @@
+/home/wujud/Clones/cplusplus/Chemo2/CMakeFiles/rebuild_cache.dir
+/home/wujud/Clones/cplusplus/Chemo2/CMakeFiles/Chemo.dir
+/home/wujud/Clones/cplusplus/Chemo2/CMakeFiles/edit_cache.dir
