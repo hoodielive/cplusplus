@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Log.cpp"
 
+#define LOG(x) std::cout << x << std::endl;
+
 int Multiply(int a, int b)
 {
 	return a * b;
@@ -12,8 +14,9 @@ void MultiplyandLog(int a, int b)
 	std::cout << result << std::endl;
 }
 
-void Loops()
+void Loopss()
 {
+	// Loops
 	for (int i = 0; i < 5; i++)
 	{
 		Log("Howdy Looper");
@@ -27,6 +30,28 @@ void Loops()
 		Log("Howdy!");
 		i++;
 	}
+}
+
+void ThatsThePoint()
+{
+	// Pointers (integers that hold memory addresses) void* ptr = nullptr;
+
+	int var = 8;                // stack
+	void* ptr = &var;
+  	*ptr;                       // dereference
+
+	char* buffer = new char[8]; // allocate 8 chars - 8bytes to buffer
+	memset(buffer, 0, 8);
+
+
+	char** ptr2 = &buffer;      // pointer to pointer
+
+	delete[] buffer;
+}
+
+void CanIGetAReference()
+{
+
 }
 
 
@@ -46,7 +71,7 @@ int main()
 		Log("Thats okay.. ignore me then!");
 	}
 
-	Loops();
+	Loopss();
 	MultiplyandLog(3, 2);
 	MultiplyandLog(30, 21);
 	MultiplyandLog(10, 9);
