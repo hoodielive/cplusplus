@@ -48,14 +48,22 @@ void ThatsThePoint()
 
 	delete[] buffer;
 }
+void CanIGetAReference() {
+	// References<Variables>
+	int a = 5;
+	int& ref = a;
+	ref = 2;
 
-void CanIGetAReference()
+	LOG(a);
+}
+
+void Increment(int* value)
 {
-
+	(*value)++;
 }
 
 
-int main()
+void SomeIfStuff()
 {
 
 	int x = 5;
@@ -71,7 +79,21 @@ int main()
 		Log("Thats okay.. ignore me then!");
 	}
 
+}
+
+int main()
+{
+
+	int a = 5;
+
+	Increment(&a);
+
+	LOG(a);
+
+	CanIGetAReference();
+
 	Loopss();
+
 	MultiplyandLog(3, 2);
 	MultiplyandLog(30, 21);
 	MultiplyandLog(10, 9);
