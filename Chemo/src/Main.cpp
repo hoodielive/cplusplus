@@ -12,6 +12,24 @@ void MultiplyandLog(int a, int b)
 	std::cout << result << std::endl;
 }
 
+void Loops()
+{
+	for (int i = 0; i < 5; i++)
+	{
+		Log("Howdy Looper");
+	}
+
+	int i = 0;
+	bool condition = true;
+
+	while (i < 5)
+	{
+		Log("Howdy!");
+		i++;
+	}
+}
+
+
 int main()
 {
 
@@ -23,7 +41,12 @@ int main()
 	{
 		Log("Hello, World");
 	}
+	else
+	{
+		Log("Thats okay.. ignore me then!");
+	}
 
+	Loops();
 	MultiplyandLog(3, 2);
 	MultiplyandLog(30, 21);
 	MultiplyandLog(10, 9);
