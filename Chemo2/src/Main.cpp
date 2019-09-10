@@ -16,7 +16,7 @@ void Move(Player& player, int xa, int ya)
 
     std::cout << "The return for player.x is: " << player.x  << std::endl;
     std::cout << "The return for player.y is: " << player.y  << std::endl;
-}
+};
 
 int main()
 {
@@ -28,4 +28,5 @@ int main()
    Move(player, 1, -1);
 
    std::cin.get();
+
 }
