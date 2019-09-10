@@ -38,6 +38,8 @@ int main()
 {
     Log log;
     log.SetLevel(log.LogLevelWarn);
-    log.Warn("Warning!!!");
+    log.Warn("Warning.");
+    log.Error("There is an error somewhere.");
+    log.Info("A few moments later.");
     std::cin.get();
 }
