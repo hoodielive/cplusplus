@@ -87,6 +87,9 @@
 		<Unit filename="/home/wujud/Clones/cplusplus/DemonSpirits/main.cpp">
 			<Option target="DemonSpirits"/>
 		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/DemonSpirits/oldEntity.cpp.old">
+			<Option target="DemonSpirits"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/DemonSpirits/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
