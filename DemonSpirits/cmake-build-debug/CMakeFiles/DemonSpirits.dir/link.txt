@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DemonSpirits.dir/main.cpp.o  -o DemonSpirits 
