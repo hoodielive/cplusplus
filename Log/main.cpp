@@ -4,34 +4,35 @@ extern int s_Namer;
 class Log
 {
 public:
-    const int LogLevelWarn = 1;
-    const int LogLevelError = 0;
-    const int LogLevelInfo = 2;
+    enum Level
+    {
+        _Error = 0, _Warn, _Info
+    };
 
 private:
-    int m_LogLevel = LogLevelInfo;
+    Level m_LogLevel = _Info;
 
 public:
-    void SetLevel(int level)
+    void SetLevel(Level level)
     {
         m_LogLevel = level;
     }
 
     void Error(const char* message)
     {
-        if (m_LogLevel >= LogLevelError)
+        if (m_LogLevel >= _Error)
             std::cout << "[ERROR]: " << message << std::endl;
     }
 
     void Warn(const char* message)
     {
-        if (m_LogLevel >= LogLevelWarn)
+        if (m_LogLevel >= _Warn)
             std::cout << "[WARNING]: " << message << std::endl;
     }
 
     void Info(const char* message)
     {
-        if (m_LogLevel >= LogLevelInfo)
+        if (m_LogLevel >= _Info)
             std::cout << "[INFO]: " << message << std::endl;
     }
 };
@@ -39,7 +40,7 @@ public:
 int main()
 {
     Log log;
-    log.SetLevel(log.LogLevelWarn);
+    log.SetLevel(Log::_Error);
     log.Warn("Warning.");
     log.Error("There is an error somewhere.");
     log.Info("A few moments later.");

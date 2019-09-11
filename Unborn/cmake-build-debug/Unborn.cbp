@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wujud/Clones/cplusplus/Unborn/Static.cpp.void">
+			<Option target="Unborn"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/Unborn/main.cpp">
 			<Option target="Unborn"/>
 		</Unit>

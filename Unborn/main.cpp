@@ -10,6 +10,30 @@ struct Entity
    }
 };
 
+enum Perfection : unsigned char
+{
+    A = 5, B, C
+};
+
+class Singleton
+{
+private:
+    static Singleton* s_Instance;
+public:
+    static Singleton& Get() { return *s_Instance; }
+
+    void Howdy() {}
+};
+
+Singleton* Singleton::s_Instance = nullptr;
+
+void Function()
+{
+    static int i = 0;
+    i++;
+    std::cout << i << std::endl;
+}
+
 int main()
 {
     Entity e;
@@ -20,5 +44,10 @@ int main()
     e.Print();
     e1.Print();
 
+    Function();
+
+    Singleton::Get().Howdy();
+
+    Perfection value = B;
 }
 
