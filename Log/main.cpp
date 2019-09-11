@@ -1,5 +1,6 @@
 #include <iostream>
 
+extern int s_Namer;
 class Log
 {
 public:
@@ -42,5 +43,6 @@ int main()
     log.Warn("Warning.");
     log.Error("There is an error somewhere.");
     log.Info("A few moments later.");
+    std::cout << s_Namer << std::endl;
     std::cin.get();
 }

@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wujud/Clones/cplusplus/Log/Static.cpp" "/home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles/Log.dir/Static.cpp.o"
-  "/home/wujud/Clones/cplusplus/Log/main.cpp" "/home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles/Log.dir/main.cpp.o"
+  "/home/wujud/Clones/cplusplus/Unborn/main.cpp" "/home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles/Unborn.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /home/wujud/.clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/Log
+CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/Unborn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/Log/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles /home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Log
+# Target rules for targets named Unborn
 
 # Build rule for target.
-Log: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Log
-.PHONY : Log
+Unborn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Unborn
+.PHONY : Unborn
 
 # fast build rule for target.
-Log/fast:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/build
-.PHONY : Log/fast
-
-Static.o: Static.cpp.o
-
-.PHONY : Static.o
-
-# target to build an object file
-Static.cpp.o:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/Static.cpp.o
-.PHONY : Static.cpp.o
-
-Static.i: Static.cpp.i
-
-.PHONY : Static.i
-
-# target to preprocess a source file
-Static.cpp.i:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/Static.cpp.i
-.PHONY : Static.cpp.i
-
-Static.s: Static.cpp.s
-
-.PHONY : Static.s
-
-# target to generate assembly for a file
-Static.cpp.s:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/Static.cpp.s
-.PHONY : Static.cpp.s
+Unborn/fast:
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/build
+.PHONY : Unborn/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Log"
+	@echo "... Unborn"
 	@echo "... edit_cache"
-	@echo "... Static.o"
-	@echo "... Static.i"
-	@echo "... Static.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

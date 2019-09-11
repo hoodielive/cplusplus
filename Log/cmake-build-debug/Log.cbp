@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wujud/Clones/cplusplus/Log/Static.cpp">
+			<Option target="Log"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/Log/main.cpp">
 			<Option target="Log"/>
 		</Unit>

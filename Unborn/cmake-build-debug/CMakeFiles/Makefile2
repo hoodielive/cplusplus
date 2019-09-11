@@ -59,45 +59,45 @@ RM = /home/wujud/.clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/Log
+CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/Unborn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/Log/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Log.dir
+# Target rules for target CMakeFiles/Unborn.dir
 
 # All Build rule for target.
-CMakeFiles/Log.dir/all:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/depend
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Log"
-.PHONY : CMakeFiles/Log.dir/all
+CMakeFiles/Unborn.dir/all:
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/depend
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Unborn"
+.PHONY : CMakeFiles/Unborn.dir/all
 
 # Include target in all.
-all: CMakeFiles/Log.dir/all
+all: CMakeFiles/Unborn.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Log.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Log/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Log.dir/rule
+CMakeFiles/Unborn.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Unborn.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/Unborn/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Unborn.dir/rule
 
 # Convenience name for target.
-Log: CMakeFiles/Log.dir/rule
+Unborn: CMakeFiles/Unborn.dir/rule
 
-.PHONY : Log
-
-# clean rule for target.
-CMakeFiles/Log.dir/clean:
-	$(MAKE) -f CMakeFiles/Log.dir/build.make CMakeFiles/Log.dir/clean
-.PHONY : CMakeFiles/Log.dir/clean
+.PHONY : Unborn
 
 # clean rule for target.
-clean: CMakeFiles/Log.dir/clean
+CMakeFiles/Unborn.dir/clean:
+	$(MAKE) -f CMakeFiles/Unborn.dir/build.make CMakeFiles/Unborn.dir/clean
+.PHONY : CMakeFiles/Unborn.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Unborn.dir/clean
 
 .PHONY : clean
 

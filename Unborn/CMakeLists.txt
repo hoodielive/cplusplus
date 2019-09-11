@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(Log)
+project(Unborn)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Log main.cpp Static.cpp)
+add_executable(Unborn main.cpp)
