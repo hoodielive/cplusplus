@@ -36,7 +36,7 @@ class Log {
 
 logger = { _ERROR : 0, _WARN : 1, _INFO : 2 } 
 
-const logger1 = new Log(logger._ERROR ); 
+const logger1 = new Log(logger._INFO ); 
 console.log(logger1.Errors('[ERROR]: Read all about it bitch'));
 console.log(logger1.Warn('[WARNING]: Come check on this bitch'));
 console.log(logger1.Info('[INFO]: Here is a brief Infomericial')); 
