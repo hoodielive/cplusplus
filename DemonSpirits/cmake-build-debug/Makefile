@@ -123,6 +123,33 @@ DemonSpirits/fast:
 	$(MAKE) -f CMakeFiles/DemonSpirits.dir/build.make CMakeFiles/DemonSpirits.dir/build
 .PHONY : DemonSpirits/fast
 
+Clion.o: Clion.cpp.o
+
+.PHONY : Clion.o
+
+# target to build an object file
+Clion.cpp.o:
+	$(MAKE) -f CMakeFiles/DemonSpirits.dir/build.make CMakeFiles/DemonSpirits.dir/Clion.cpp.o
+.PHONY : Clion.cpp.o
+
+Clion.i: Clion.cpp.i
+
+.PHONY : Clion.i
+
+# target to preprocess a source file
+Clion.cpp.i:
+	$(MAKE) -f CMakeFiles/DemonSpirits.dir/build.make CMakeFiles/DemonSpirits.dir/Clion.cpp.i
+.PHONY : Clion.cpp.i
+
+Clion.s: Clion.cpp.s
+
+.PHONY : Clion.s
+
+# target to generate assembly for a file
+Clion.cpp.s:
+	$(MAKE) -f CMakeFiles/DemonSpirits.dir/build.make CMakeFiles/DemonSpirits.dir/Clion.cpp.s
+.PHONY : Clion.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DemonSpirits"
 	@echo "... edit_cache"
+	@echo "... Clion.o"
+	@echo "... Clion.i"
+	@echo "... Clion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

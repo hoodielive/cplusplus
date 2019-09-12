@@ -12,7 +12,7 @@ public:
     }
 
 public:
-    virtual std::string GetName() { return "Entity" };
+    virtual std::string GetName() { return "Entity"; }
 };
 
 class Player : public Entity
@@ -34,7 +34,7 @@ public:
 };
 
 
-int main()
+int bitch()
 {
     Entity* e = new Entity();
     std::cout << e->GetName() << std::endl;

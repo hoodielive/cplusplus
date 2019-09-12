@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wujud/Clones/cplusplus/DemonSpirits/Clion.cpp">
+			<Option target="DemonSpirits"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/DemonSpirits/main.cpp">
 			<Option target="DemonSpirits"/>
 		</Unit>

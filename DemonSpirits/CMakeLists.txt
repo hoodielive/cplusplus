@@ -3,4 +3,4 @@ project(DemonSpirits)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DemonSpirits main.cpp oldEntity.cpp.old)
+add_executable(DemonSpirits main.cpp oldEntity.cpp.old Clion.cpp)

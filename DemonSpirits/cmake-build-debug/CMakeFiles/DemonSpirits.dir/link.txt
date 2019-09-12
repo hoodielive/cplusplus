@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DemonSpirits.dir/main.cpp.o  -o DemonSpirits 
+/usr/bin/c++  -g   CMakeFiles/DemonSpirits.dir/main.cpp.o CMakeFiles/DemonSpirits.dir/Clion.cpp.o  -o DemonSpirits 
