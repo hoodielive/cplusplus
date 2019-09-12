@@ -15,7 +15,7 @@ class Log {
 	 Errors(message) {
 		if (this.logger == 0)
 		{
-			return console.log((message))
+			return(message)
 		}
 	 }
 
