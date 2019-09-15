@@ -1,7 +1,8 @@
 # C++
 Learn C++ and Learn it well!
 
-### A statement is equivalent to a sentence in C++ and instead of it being terminated with a period '.', it is terminated by a ';'. 
+
+A statement is equivalent to a sentence in C++ and instead of it being terminated with a period '.', it is terminated by a ';'. 
 
 ## Variables can have a variety of types:
    1. Integers (int), a variable type stores only single integers with 'no' decimals. Must be at least 16 bits long
