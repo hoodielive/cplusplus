@@ -1,7 +1,8 @@
-# cplusplus
+# C++
 Learn C++ and Learn it well!
 
-## a statement is equivalent to a sentence in C++ and instead of it being terminated with a period '.', it is terminated by a ';'. 
+
+A statement is equivalent to a sentence in C++ and instead of it being terminated with a period '.', it is terminated by a ';'. 
 
 ## Variables can have a variety of types:
    1. Integers (int), a variable type stores only single integers with 'no' decimals. Must be at least 16 bits long
@@ -21,14 +22,14 @@ Learn C++ and Learn it well!
   Note: before a variable can be used, it must first be 'declared' with a declaration statement. 
   A declaration statement gives a name and type to a place in memory where a specific 'value' is held: 
     ex. 
-    // Declaration Statement 
-    double y; 
+    + Declaration Statement 
+     - double y; 
 
-    // Assignment Statement 
-    y = 20.5
+    + Assignment Statement 
+     - y = 20.5;
 
-    // Output Statement
-    std::cout << y; 
+    + Output Statement
+     - std::cout << y; 
 
     + When a declaration and assignment happens at the 'same' time, this is called 'initialization'. 
       - double y = 20.5; 
