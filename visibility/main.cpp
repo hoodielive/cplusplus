@@ -1,5 +1,17 @@
 #include <iostream>
 
+int sumArray(int values[], int size)
+{
+    int sum = 0;
+
+    // this array stops when i == size. Why? The last element is size - 1
+   for (int i = 0; i < size; i++)
+   {
+       sum += values[i];
+   }
+   return sum;
+}
+
 int main()
 {
     int array[8][8]; // Declares an array that looks like a chess board
@@ -18,8 +30,8 @@ int main()
     {
         for (int j = 0; j < 8; j++)
         {
-            std::cout << "[ "<< i <<" ][ "<< j <<" ] = " << std::endl;
-            std::cout << array[i][j] <<" " << std::endl;
+            std::cout << "["<< i <<"]["<< j <<"] = ";
+            std::cout << array[i][j] <<" ";
         }
     }
 }
