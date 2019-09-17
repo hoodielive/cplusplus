@@ -1,0 +1,4 @@
+#ifndef CISH_ACCOUNT_H
+#define CISH_ACCOUNT_H
+
+#endif //CISH_ACCOUNT_H
