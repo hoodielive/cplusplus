@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DemonSpirits.dir/main.cpp.o"
+  "CMakeFiles/DemonSpirits.dir/Clion.cpp.o"
   "DemonSpirits.pdb"
   "DemonSpirits"
 )
