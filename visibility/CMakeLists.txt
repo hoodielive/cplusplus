@@ -3,4 +3,4 @@ project(visibility)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(visibility main.cpp)
+add_executable(visibility main.cpp Sortingints.cpp)

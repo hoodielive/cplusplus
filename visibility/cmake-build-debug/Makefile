@@ -123,6 +123,33 @@ visibility/fast:
 	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/build
 .PHONY : visibility/fast
 
+Sortingints.o: Sortingints.cpp.o
+
+.PHONY : Sortingints.o
+
+# target to build an object file
+Sortingints.cpp.o:
+	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.o
+.PHONY : Sortingints.cpp.o
+
+Sortingints.i: Sortingints.cpp.i
+
+.PHONY : Sortingints.i
+
+# target to preprocess a source file
+Sortingints.cpp.i:
+	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.i
+.PHONY : Sortingints.cpp.i
+
+Sortingints.s: Sortingints.cpp.s
+
+.PHONY : Sortingints.s
+
+# target to generate assembly for a file
+Sortingints.cpp.s:
+	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.s
+.PHONY : Sortingints.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... visibility"
 	@echo "... edit_cache"
+	@echo "... Sortingints.o"
+	@echo "... Sortingints.i"
+	@echo "... Sortingints.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
