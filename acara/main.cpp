@@ -140,6 +140,26 @@ void array_bert()
 
 };
 
+void CharacterSets()
+{
+   // the art of strings (array of chars)
+   const char* name = "Larry"; // this is NOT heap allocated
+
+   // or
+   char name2[5] = {'L', 'a', 'r', 'r', 'y'};
+   std::cout << name2 << std::endl;
+
+   std::string name3 = "hood";
+
+   std::cout << name3.size() << std::endl;
+
+   bool findName = name3.find("oo") != std::string::npos;
+
+   std::cout << findName << std::endl;
+
+   std::cout << name3 << std::endl;
+};
+
 int main() {
     double d1 {2.3};
     std::complex<double> z = 1;
@@ -168,4 +188,5 @@ int main() {
     copy_fct();
     count_x(t, x);
     array_bert();
+    CharacterSets();
 }
