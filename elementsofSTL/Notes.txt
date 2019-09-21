@@ -49,3 +49,48 @@ Containers
  Map, a set of pairs.
  Pairs are two-tuples.
  Map implementation is similar to sets.
+
+ Iterators:
+ Objects that enable us to traverse containers in some order for either reading or writing.
+ Iterators are defined as templates in C++.
+ Are pointers and iterators the same thing? No. Pointers are one particular 'type' of iterator.
+
+ STL defines 5 types of Iterators:
+ 1. Input - read one way, one pass.
+    - Only able to read.
+    - Only moves forward.
+    - Only one pass possible.
+    - Least requirements.
+    - Suitable for input streams such as keyboard buffers.
+ 2. Output - write one way, one pass.
+    - Only able to write.
+    - Only moves forward.
+    - Only one pass possible.
+    - Least requirements.
+    - Suitable for output streams such as screen text.
+ 3. Forward - Read/Write one way, multipass.
+    - Able to read and write (mutable).
+    - Only moves forward.
+    - Suitable for traversing linked lists.
+ 4. Bidirectional - Read/Write two way, multipass.
+    - Able to read/write (mutable)
+    - Moves forward and backward.
+    - Supports multiple passes.
+    - Suitable for traversing doubly linked lists.
+ 5. Random Access - read/write anywhere.
+    - Able to read/write (mutable)
+    - Able to access any element by index.
+    - Supports multiple passes.
+    - Suitable for vectors and arrays.
+
+  Iterator                          Container
+  Forward                   forward_list, unordered_[muli]set, unordered_[multi]map
+  Bidirectional             list, [multi]set, [multi]map
+  Random Access             vector, deque, array
+
+  Four Important Iterator Functions:
+  begin(), returns an iterator to the beginning of the container.
+  end(), returns an iterator to the end of the container.
+  rbegin(), returns a reverse iterator to the reverse beginning of the container.
+  rend(), returns a reverse iterator to the reverse end of the container.
+
