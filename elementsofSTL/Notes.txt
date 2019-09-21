@@ -94,3 +94,8 @@ Containers
   rbegin(), returns a reverse iterator to the reverse beginning of the container.
   rend(), returns a reverse iterator to the reverse end of the container.
 
+
+  Iterator Invalidation
+  When there are changes in the contents of container that is currently using iterators, these iterators may become invalid.
+
+
