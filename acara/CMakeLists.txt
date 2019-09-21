@@ -3,4 +3,4 @@ project(acara)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(acara main.cpp)
+add_executable(acara main.cpp Link.cpp Link.h)

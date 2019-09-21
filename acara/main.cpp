@@ -1,6 +1,7 @@
 #include <iostream>
 #include <complex>
 #include <vector>
+#include "Link.h"
 
 constexpr double square(double x)
 {
@@ -70,9 +71,40 @@ void copy_fct()
     for (auto i = 0; i!=10; ++i)
         v2[i] = v1[i];
 
+    /*
+     * This for-statement can be read as:
+     * set i to zero; while i is not 10, copy the ith element and
+     * increment i; when applied to an int var, the increment operator ++ simply adds 1
+     */
     std::cout << v2 << std::endl;
     std::cout << v2[3] << std::endl;
 };
+
+void print()
+{
+    int v[] = {0,1,2,3,4,5,6,7,8,9};
+    for (auto x : v)
+        std::cout << x << '\n';
+
+    for (auto x: {10,21,32,43,54,65})
+        std::cout << x << '\n';
+};
+
+void print2()
+{
+    // print() is some bullshit - do this instead..
+    int v[] = {0,1,2,3,4,5,6,7,8,9};
+    for (auto& x: v)
+        ++x;
+};
+
+void suffixes()
+{
+    double* pd = nullptr;
+
+    Link <Record> *lst;
+    auto lst = nullptr;
+}
 
 int main() {
     double d1 {2.3};
@@ -82,9 +114,12 @@ int main() {
     constexpr double max1 = 1.4 * square(dmv);
     auto ch = 'x';
 
-    char t[6]; // array of 6 characters [] "array of" | arrays must have a constant expression
+    // array of 6 characters [] "array of" | arrays must have a constant expression
+    char t[6];
     t[3] = 65;
-    char* p = &t[3];  // pointer to character * "pointer to"  | prefix unary means 'contents of' & means "address of"
+
+    // pointer to character * "pointer to"  | prefix unary means 'contents of' & means "address of"
+    char* p = &t[3];
     char x = *p;
 
     std::cout << max1 << std::endl;

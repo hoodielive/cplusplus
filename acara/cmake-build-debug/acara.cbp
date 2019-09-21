@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wujud/Clones/cplusplus/acara/Link.cpp">
+			<Option target="acara"/>
+		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/acara/Link.h">
+			<Option target="acara"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/acara/main.cpp">
 			<Option target="acara"/>
 		</Unit>

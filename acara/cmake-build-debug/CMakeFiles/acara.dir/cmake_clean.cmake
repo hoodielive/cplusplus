@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/acara.dir/main.cpp.o"
+  "CMakeFiles/acara.dir/Link.cpp.o"
   "acara.pdb"
   "acara"
 )

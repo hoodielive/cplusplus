@@ -123,6 +123,33 @@ acara/fast:
 	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/build
 .PHONY : acara/fast
 
+Link.o: Link.cpp.o
+
+.PHONY : Link.o
+
+# target to build an object file
+Link.cpp.o:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/Link.cpp.o
+.PHONY : Link.cpp.o
+
+Link.i: Link.cpp.i
+
+.PHONY : Link.i
+
+# target to preprocess a source file
+Link.cpp.i:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/Link.cpp.i
+.PHONY : Link.cpp.i
+
+Link.s: Link.cpp.s
+
+.PHONY : Link.s
+
+# target to generate assembly for a file
+Link.cpp.s:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/Link.cpp.s
+.PHONY : Link.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... acara"
 	@echo "... edit_cache"
+	@echo "... Link.o"
+	@echo "... Link.i"
+	@echo "... Link.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/wujud/Clones/cplusplus/acara/Link.cpp
+Link.h
+/home/wujud/Clones/cplusplus/acara/Link.h
+
+/home/wujud/Clones/cplusplus/acara/Link.h
+iostream
+-
+string
+-
+
 /home/wujud/Clones/cplusplus/acara/main.cpp
 iostream
 -
@@ -13,4 +23,6 @@ complex
 -
 vector
 -
+Link.h
+/home/wujud/Clones/cplusplus/acara/Link.h
 
