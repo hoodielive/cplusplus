@@ -117,7 +117,21 @@ int count_x(char* p, char x)
         if (*p == x)
             ++count;
     return count;
-}
+};
+
+void array_bert()
+{
+
+    int example[5]; // created on stack
+    example[0] = 2;
+    example[4] = 4;
+
+    int* another = new int[5]; // created on heap, delete it with:
+    delete[] another;
+
+    std::cout << example << " is the address because its of type pointer" << std::endl;
+    std::cout << example[4] << " Only access elements within the bounds of the array" << std::endl;
+};
 
 int main() {
     double d1 {2.3};
@@ -146,4 +160,5 @@ int main() {
 
     copy_fct();
     count_x(t, x);
+    array_bert();
 }
