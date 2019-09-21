@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/elementsofSTL.dir/main.cpp.o  -o elementsofSTL 

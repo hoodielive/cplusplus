@@ -1,0 +1,51 @@
+# Components of the C++ STL
+
+1. Containers, array-like data structures that store collections of objects.
+2. Iterators, pointer-like objects that allow traversal of containers.
+3. Algorithms, a collection of algorithm implementations for operations, such as search and sort.
+4. Functors, function objects that can be parameterized in their constructors.
+
+Containers
+ - Objects that handle a collection of objects (elements), implementing a well-defined data structure.
+ Examples: vectors, stacks, queues, maps and pairs.
+
+ 3 Main types of Containers:
+ 1. Sequence - storage of data :: Vectors, list, deques, stacks and queues.
+ 2. Associative - storage of associative pairs as implemented as trees :: Sets, maps, multisets, multimaps.
+ 3. Unordered Associative - storage of associative implements as hash tables :: Sets, maps, multisets, multimaps.
+
+ Sequence Containers:
+
+ Vector, a dynamic size array.
+ Supports random access for insertions and deletions of elements.
+ Elements are stored contiguously in memory.
+ Dynamically resizes as needed.
+ There is also array.
+
+ List, a doubly linked list.
+ Does not support random access of elements.
+ Elements are not stored contiguously in memory.
+ Different performance than a vector.
+ There is also a forward_list
+
+ Deque, a double-ended queue
+ Supports push and pop operations on both ends.
+ Elements are not all stored contiguously in memory.
+ Also serves as a stack or queue.
+
+ Container Adapters:
+ 1. Stack - push and pop operations on 1 end. (Deque, Vector or list).
+ 2. Queue - push and pop operations.
+ 3. Priority queue - insert and get (heap).
+
+ Associative Containers:
+ Set, a mathematical set.
+ Implementation
+    - Ordered sets as binary trees.
+    - Unordered sets as hash tables
+ Does not accept duplicates.
+ For duplicates, use multisets.
+
+ Map, a set of pairs.
+ Pairs are two-tuples.
+ Map implementation is similar to sets.
