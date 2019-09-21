@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/wujud/Clones/cplusplus/acara/Link.cpp
-Link.h
-/home/wujud/Clones/cplusplus/acara/Link.h
-
 /home/wujud/Clones/cplusplus/acara/Link.h
 iostream
 -

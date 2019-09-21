@@ -102,8 +102,21 @@ void suffixes()
 {
     double* pd = nullptr;
 
-    Link <Record> *lst;
+   // Link <Record> *lst;
     auto lst = nullptr;
+}
+
+int count_x(char* p, char x)
+{
+    // ok so count the number of occurrences of x in p[]
+    // p is assumed to point to a zero-terminated array of char (or to Nothing, nada, zip, nathaniel)
+
+    if (p == nullptr) return 0;
+    int count = 0;
+    for (; *p!=0; ++p)
+        if (*p == x)
+            ++count;
+    return count;
 }
 
 int main() {
@@ -132,4 +145,5 @@ int main() {
     std::cout << "x points to: " << x << std::endl;
 
     copy_fct();
+    count_x(t, x);
 }
