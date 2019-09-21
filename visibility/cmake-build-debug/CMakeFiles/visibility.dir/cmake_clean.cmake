@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/visibility.dir/main.cpp.o"
   "CMakeFiles/visibility.dir/Sortingints.cpp.o"
+  "CMakeFiles/visibility.dir/arda.cpp.o"
   "visibility.pdb"
   "visibility"
 )

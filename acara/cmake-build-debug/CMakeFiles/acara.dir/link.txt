@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/acara.dir/main.cpp.o  -o acara 

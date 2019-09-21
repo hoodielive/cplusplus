@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/wujud/Clones/cplusplus/visibility/arda.cpp
+/home/wujud/Clones/cplusplus/acara/main.cpp
 iostream
+-
+complex
+-
+vector
 -
 

@@ -87,6 +87,9 @@
 		<Unit filename="/home/wujud/Clones/cplusplus/visibility/Sortingints.cpp">
 			<Option target="visibility"/>
 		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/visibility/arda.cpp">
+			<Option target="visibility"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/visibility/main.cpp">
 			<Option target="visibility"/>
 		</Unit>

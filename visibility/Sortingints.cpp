@@ -1,12 +1,5 @@
 #include <iostream>
 
-class Wutang
-{
-    void sort()
-    {
-
-    }
-}
 int newMain()
 {
     int values[100];
@@ -15,4 +8,4 @@ int newMain()
         std::cout << "Enter value " << i << ": " << std::endl;
         std::cin >> values[i];
     }
-}
+};

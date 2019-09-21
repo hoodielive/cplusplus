@@ -59,45 +59,45 @@ RM = /home/wujud/.clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/visibility
+CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/acara
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/visibility/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/acara/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/visibility.dir
+# Target rules for target CMakeFiles/acara.dir
 
 # All Build rule for target.
-CMakeFiles/visibility.dir/all:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/depend
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target visibility"
-.PHONY : CMakeFiles/visibility.dir/all
+CMakeFiles/acara.dir/all:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/depend
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target acara"
+.PHONY : CMakeFiles/acara.dir/all
 
 # Include target in all.
-all: CMakeFiles/visibility.dir/all
+all: CMakeFiles/acara.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/visibility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visibility.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/visibility.dir/rule
+CMakeFiles/acara.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/acara.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/acara.dir/rule
 
 # Convenience name for target.
-visibility: CMakeFiles/visibility.dir/rule
+acara: CMakeFiles/acara.dir/rule
 
-.PHONY : visibility
-
-# clean rule for target.
-CMakeFiles/visibility.dir/clean:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/clean
-.PHONY : CMakeFiles/visibility.dir/clean
+.PHONY : acara
 
 # clean rule for target.
-clean: CMakeFiles/visibility.dir/clean
+CMakeFiles/acara.dir/clean:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/clean
+.PHONY : CMakeFiles/acara.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/acara.dir/clean
 
 .PHONY : clean
 

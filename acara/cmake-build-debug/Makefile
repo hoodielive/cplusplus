@@ -48,10 +48,10 @@ RM = /home/wujud/.clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/visibility
+CMAKE_SOURCE_DIR = /home/wujud/Clones/cplusplus/acara
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/visibility/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wujud/Clones/cplusplus/acara/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles /home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles /home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/visibility/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wujud/Clones/cplusplus/acara/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named visibility
+# Target rules for targets named acara
 
 # Build rule for target.
-visibility: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visibility
-.PHONY : visibility
+acara: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 acara
+.PHONY : acara
 
 # fast build rule for target.
-visibility/fast:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/build
-.PHONY : visibility/fast
-
-Sortingints.o: Sortingints.cpp.o
-
-.PHONY : Sortingints.o
-
-# target to build an object file
-Sortingints.cpp.o:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.o
-.PHONY : Sortingints.cpp.o
-
-Sortingints.i: Sortingints.cpp.i
-
-.PHONY : Sortingints.i
-
-# target to preprocess a source file
-Sortingints.cpp.i:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.i
-.PHONY : Sortingints.cpp.i
-
-Sortingints.s: Sortingints.cpp.s
-
-.PHONY : Sortingints.s
-
-# target to generate assembly for a file
-Sortingints.cpp.s:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/Sortingints.cpp.s
-.PHONY : Sortingints.cpp.s
-
-arda.o: arda.cpp.o
-
-.PHONY : arda.o
-
-# target to build an object file
-arda.cpp.o:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/arda.cpp.o
-.PHONY : arda.cpp.o
-
-arda.i: arda.cpp.i
-
-.PHONY : arda.i
-
-# target to preprocess a source file
-arda.cpp.i:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/arda.cpp.i
-.PHONY : arda.cpp.i
-
-arda.s: arda.cpp.s
-
-.PHONY : arda.s
-
-# target to generate assembly for a file
-arda.cpp.s:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/arda.cpp.s
-.PHONY : arda.cpp.s
+acara/fast:
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/build
+.PHONY : acara/fast
 
 main.o: main.cpp.o
 
@@ -183,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/visibility.dir/build.make CMakeFiles/visibility.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/acara.dir/build.make CMakeFiles/acara.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -211,14 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... visibility"
+	@echo "... acara"
 	@echo "... edit_cache"
-	@echo "... Sortingints.o"
-	@echo "... Sortingints.i"
-	@echo "... Sortingints.s"
-	@echo "... arda.o"
-	@echo "... arda.i"
-	@echo "... arda.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
