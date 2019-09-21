@@ -160,6 +160,11 @@ void CharacterSets()
    std::cout << name3 << std::endl;
 };
 
+void PrintString(const std::string& string)
+{
+    std::cout << string << std::endl;
+};
+
 int main() {
     double d1 {2.3};
     std::complex<double> z = 1;
