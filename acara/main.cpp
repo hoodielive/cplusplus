@@ -1,6 +1,7 @@
 #include <iostream>
 #include <complex>
 #include <vector>
+#include <array>
 #include "Link.h"
 
 constexpr double square(double x)
@@ -131,6 +132,12 @@ void array_bert()
 
     std::cout << example << " is the address because its of type pointer" << std::endl;
     std::cout << example[4] << " Only access elements within the bounds of the array" << std::endl;
+
+    // C++ 11 Standard
+    std::array<int, 5> anotherArray{};
+    anotherArray[2] = 9;
+    std::cout << anotherArray[2] << std::endl;
+
 };
 
 int main() {
