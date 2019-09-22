@@ -123,6 +123,33 @@ essentialc/fast:
 	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/build
 .PHONY : essentialc/fast
 
+func.o: func.c.o
+
+.PHONY : func.o
+
+# target to build an object file
+func.c.o:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/func.c.o
+.PHONY : func.c.o
+
+func.i: func.c.i
+
+.PHONY : func.i
+
+# target to preprocess a source file
+func.c.i:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/func.c.i
+.PHONY : func.c.i
+
+func.s: func.c.s
+
+.PHONY : func.s
+
+# target to generate assembly for a file
+func.c.s:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/func.c.s
+.PHONY : func.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... essentialc"
 	@echo "... edit_cache"
+	@echo "... func.o"
+	@echo "... func.i"
+	@echo "... func.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

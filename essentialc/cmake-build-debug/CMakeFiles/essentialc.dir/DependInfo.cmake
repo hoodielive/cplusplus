@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/wujud/Clones/cplusplus/essentialc/func.c" "/home/wujud/Clones/cplusplus/essentialc/cmake-build-debug/CMakeFiles/essentialc.dir/func.c.o"
   "/home/wujud/Clones/cplusplus/essentialc/main.c" "/home/wujud/Clones/cplusplus/essentialc/cmake-build-debug/CMakeFiles/essentialc.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

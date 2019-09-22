@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/func.c">
+			<Option target="essentialc"/>
+		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/func.h">
+			<Option target="essentialc"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/main.c">
 			<Option target="essentialc"/>
 		</Unit>

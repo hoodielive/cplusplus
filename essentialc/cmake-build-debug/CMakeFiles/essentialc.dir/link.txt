@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/essentialc.dir/main.c.o  -o essentialc 
+/usr/bin/cc -g   CMakeFiles/essentialc.dir/main.c.o CMakeFiles/essentialc.dir/func.c.o  -o essentialc 
