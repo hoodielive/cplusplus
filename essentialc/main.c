@@ -18,6 +18,15 @@ int code()
     return 0;
 };
 
+
+int arrays()
+{
+    int ia[5];
+    ia[0] = 1;
+    int *ip = ia;
+    printf("This is this the return for ia: %d", *ip);
+}
+
 int mysteryOfIdentifier()
 {
     for (int i = 1; i <= 5; ++i)
@@ -54,5 +63,6 @@ int main(int argc, char ** argv)
     printf("The number from the external var is: %d\n", var);
     func();
     funcPoint();
+    arrays();
     return 0;
 }
