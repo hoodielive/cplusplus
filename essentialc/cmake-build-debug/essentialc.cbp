@@ -87,6 +87,9 @@
 		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/main.c">
 			<Option target="essentialc"/>
 		</Unit>
+		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/utypes.c">
+			<Option target="essentialc"/>
+		</Unit>
 		<Unit filename="/home/wujud/Clones/cplusplus/essentialc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

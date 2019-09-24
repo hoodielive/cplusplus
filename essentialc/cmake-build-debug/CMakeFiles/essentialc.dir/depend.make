@@ -4,4 +4,7 @@
 CMakeFiles/essentialc.dir/func.c.o: ../func.c
 
 CMakeFiles/essentialc.dir/main.c.o: ../main.c
+CMakeFiles/essentialc.dir/main.c.o: ../utypes.c
+
+CMakeFiles/essentialc.dir/utypes.c.o: ../utypes.c
 

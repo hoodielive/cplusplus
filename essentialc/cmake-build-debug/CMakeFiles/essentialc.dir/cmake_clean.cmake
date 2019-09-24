@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/essentialc.dir/main.c.o"
   "CMakeFiles/essentialc.dir/func.c.o"
+  "CMakeFiles/essentialc.dir/utypes.c.o"
   "essentialc.pdb"
   "essentialc"
 )

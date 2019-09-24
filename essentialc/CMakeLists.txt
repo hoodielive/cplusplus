@@ -3,4 +3,4 @@ project(essentialc C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(essentialc main.c func.c func.h)
+add_executable(essentialc main.c func.c func.h utypes.c)

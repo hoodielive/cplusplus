@@ -177,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/main.c.s
 .PHONY : main.c.s
 
+utypes.o: utypes.c.o
+
+.PHONY : utypes.o
+
+# target to build an object file
+utypes.c.o:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/utypes.c.o
+.PHONY : utypes.c.o
+
+utypes.i: utypes.c.i
+
+.PHONY : utypes.i
+
+# target to preprocess a source file
+utypes.c.i:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/utypes.c.i
+.PHONY : utypes.c.i
+
+utypes.s: utypes.c.s
+
+.PHONY : utypes.s
+
+# target to generate assembly for a file
+utypes.c.s:
+	$(MAKE) -f CMakeFiles/essentialc.dir/build.make CMakeFiles/essentialc.dir/utypes.c.s
+.PHONY : utypes.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... utypes.o"
+	@echo "... utypes.i"
+	@echo "... utypes.s"
 .PHONY : help
 
 

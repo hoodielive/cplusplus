@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "utypes.c"
 
 extern void func();
 extern int var;
@@ -64,5 +65,6 @@ int main(int argc, char ** argv)
     func();
     funcPoint();
     arrays();
+    missle();
     return 0;
 }
