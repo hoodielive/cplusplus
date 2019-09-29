@@ -12,13 +12,12 @@ class Mac()
         }
     }
     return index_of_smallest_value;
+};
 
-    int main()
-    {
-        Mac m = new Mac();
-        int w[4] {3, 2, 1, 0, 4};
-        m.findSmallestRemainingElement(w, 2);
-        return 0;
-    }
+int main()
+{
+    Mac m = new Mac();
+    int w[4] {3, 2, 1, 0, 4};
+    m.findSmallestRemainingElement(w, 2);
+    return 0;
 }
-
