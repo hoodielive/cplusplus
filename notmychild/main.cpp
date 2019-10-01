@@ -1,6 +1,6 @@
 #include <iostream>
 
-class Mac()
+class Macc()
 {
     int findSmallestRemainingElement(int array[], int index)
     {
@@ -16,7 +16,7 @@ class Mac()
 
 int main()
 {
-    Mac m = new Mac();
+    Macc m = new Mac();
     int w[4] {3, 2, 1, 0, 4};
     m.findSmallestRemainingElement(w, 2);
     return 0;
