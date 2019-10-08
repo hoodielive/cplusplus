@@ -89,10 +89,35 @@ int main(int argc, char** argv)
             return 1;
         }
 
-        /* found the minimal CNF by the
+        /* found the minimal CNF by the Quine-McCluskey algorithm and use it */
+
+        mode_t mode = mask.get_applying_mask()
+                | (current_acces.st_mode & ~mask.get_removal_mask());
+        if (chmod(argv[i++], mode) != 0) {
+            perror("chmod");
+        }
     }
+
+    return 0;
 }
 
+Optional<Mask> string_to_mode(char access_scope, const char*& access_string)
+{
+   char operation = *access_string;
+
+   if (operation != '+' && operation != '-' && operation != '=') {
+       return {};
+   }
+
+   Mask mask;
+   if (operation == '=') {
+       switch (access_scope) {
+       case 'u':
+           mask.get_removal_mask() = (S_IWUSR | S_IXUSR);
+           break;
+       }
+   }
+}
 
 
 
