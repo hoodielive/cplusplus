@@ -9,7 +9,7 @@ struct Struction
 int main() 
 {
 	Struction parsley; 
-	parsley.i = 22; 
+	auto [u, v] = parsley;
 
-	std::cout << parsley.i << std::endl;
+	auto [u2, v2] {parsley};
 }
