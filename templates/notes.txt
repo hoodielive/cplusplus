@@ -1,3 +1,11 @@
+Notes
+- Function that accepts template type arguments. 
+- Always begins with template keyword. 
+- Template type argument is called type name or class. 
+- Type name is a placeholder for the actual type. 
+- Can accept any type. 
+- The template can be used to return type. 
+
 template<typename T> 
 T Function(T arg)
 {
