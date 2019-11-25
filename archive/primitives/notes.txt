@@ -1,0 +1,11 @@
+Notes 
+
+- Every widely used programming language provides a 'common' set of features, which differ in detail from one language to another.
+- Understanding the 'details' of how a language provides these features is the first step toward understanding the language.
+- Among the most fundamental of these common features are:
+	- Built-in types such as integers, characters, etc., 
+	- Variables, which let us give names to the objects we use.
+	- Expressions and statements to manipulate values of thes types.
+	- Control structures, such as if or while, that allow us to conditionally or repeatedly execute a set of actions.
+	- Functions that let us define callable units of computation.
+
