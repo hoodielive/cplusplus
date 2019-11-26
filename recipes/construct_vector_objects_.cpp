@@ -11,7 +11,8 @@ int main()
 	aVector vectorB( 1, 10 );
 	std::cout << vectorB.size() << " " << vectorB[0] << std::endl;
 
-	aVector vectorC{ 1, 10 };
+	intializer_list<int> initList{1, 10};
+	aVector vectorC(initList);
 	std::cout << vectorC.size() << " " << vectorC[0] << std::endl;
 
 	return 0;
