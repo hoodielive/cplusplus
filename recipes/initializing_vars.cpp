@@ -13,6 +13,6 @@ class Classy
 int main()
 {
 	Classy objectA;
-	Classy objectB;
+  Classy objectB;
 	return 0;
 }
