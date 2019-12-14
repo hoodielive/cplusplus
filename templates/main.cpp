@@ -15,6 +15,6 @@ int main()
 {
 	auto num = Max(3, 8);
 	auto num2 = Maxer(4.5f, 9.2f);
-	std::cout << num2 << std::endl; 
-	return 0; 
+	std::cout << num2 << std::endl;
+	return 0;
 }
